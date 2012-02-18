@@ -10,9 +10,7 @@ our $VERSION = 0.1;
 
 use File::Find;
 use Getopt::Long;
-
 use Locale::PO;
-use Data::Dumper;
 
 has description => 'Generate i18n lexicon files from po files.';
 
@@ -146,20 +144,21 @@ __END__
 
 =head1 NAME
 
-Mojolicious::Command::generate::lexicon - Generate Lexicon from .po files
+Mojolicious::Command::generate::i18n - Generate Lexicon from .po files
 
 =head1 SYNOPSIS
 
-    $ ./script/my_mojolicious_app generate lexicon [po_files_location]
-        [--behavior=save||reset]
+    $ ./script/my_mojolicious_app generate i18n [po_files_location]
 
-
+This command used to generate Locale::Maketext::Lexicon files for Mojolicious app from .po files.
+By default it searches for .po files under I18N dir.
+If Lexicon file for language exists files will be merged.
 
 =head1 DEVELOPMENT
 
 =head2 Repository
 
-    http://github.com/und3f/mojolicious-lexicon
+    http://github.com/isage/mojolicious-command-generate-i18n
 
 =head1 AUTHOR
 

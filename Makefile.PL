@@ -12,6 +12,8 @@ WriteMakefile(
         'Test::More'  => 0,
         'version'     => 0,
         'Mojolicious' => 2.0,
+        'Locale::PO'  => 0,
+        'File::Find'  => 0
     },
     dist  => {COMPRESS => 'gzip -9f', SUFFIX => 'gz',},
 );

@@ -1,0 +1,27 @@
+NAME
+    Mojolicious::Command::generate::i18n - Generate Lexicon from .po files
+
+SYNOPSIS
+        $ ./script/my_mojolicious_app generate i18n [po_files_location]
+
+    This command used to generate Locale::Maketext::Lexicon files for
+    Mojolicious app from .po files By default it searches for .po files
+    under I18N dir.
+
+DEVELOPMENT
+  Repository
+        http://github.com/isage/mojolicious-command-generate-i18n
+
+AUTHOR
+    Epifanov Ivan, "isage@aumi.ru".
+
+CREDITS
+    This module partly based on Sergey Zasenko ("undef@cpan.org")
+    Mojolicious::Command::Generate::Lexicon
+
+COPYRIGHT
+    Copyright (C) 2012, Epifanov Ivan
+
+    This program is free software, you can redistribute it and/or modify it
+    under the terms of the Artistic License version 2.0.
+
