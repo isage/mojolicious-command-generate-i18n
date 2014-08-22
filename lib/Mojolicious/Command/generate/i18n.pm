@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use utf8;
 
-use Mojo::Base 'Mojo::Command';
+use Mojo::Base 'Mojolicious::Command';
 
 our $VERSION = 0.1;
 
